@@ -5,8 +5,9 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 70px;
+  padding: 16px 24px;
   color: white;
+  /* width: ; */
 }
 
 .logo {
@@ -21,6 +22,7 @@ body{
 }
 
 .nav-links li {
+  font-family: var(--font-inter);
   cursor: pointer;
 }
 
@@ -60,6 +62,7 @@ body{
   padding: 8px 16px;
   border-radius: 30px;
   font-size: 14px;
+  width: 350px;
 }
 
 .badge span {
@@ -108,4 +111,7 @@ body{
     color: black;
     background-color:white ;
     border-radius: 20px;
+}
+.hero{
+    padding: 0.6px 200px;
 }
