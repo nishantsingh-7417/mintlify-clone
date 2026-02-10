@@ -1,0 +1,111 @@
+body{
+    background-image: url(https://www.mintlify.com/hero/bg-dark.svg);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.contact {
+  background: transparent;
+  color: white;
+  border: 1px solid #2c2c2c;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.start {
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.hero-content {
+  text-align: center;
+  color: white;
+  margin-top: 120px;
+}
+
+.badge {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  background: rgba(255,255,255,0.1);
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.badge span {
+  background: #22c55e;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  margin-top: 25px;
+}
+
+.hero-content h1 span {
+  color: #7ef0c2;
+}
+
+.hero-content p {
+  margin-top: 15px;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.email-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.email-box input {
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: none;
+  width: 250px;
+}
+
+.email-box button {
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+.arrow{
+    color: black;
+    background-color:white ;
+    border-radius: 20px;
+}
