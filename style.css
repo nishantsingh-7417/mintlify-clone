@@ -1,50 +1,57 @@
-body{
-    background-image: url(https://www.mintlify.com/hero/bg-dark.svg);
+.hero{
+  background-image: url(https://www.mintlify.com/hero/bg-dark.svg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  min-height: 100vh;
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 24px;
-  color: white;
-  /* width: ; */
+body{
+  margin: 0px;
+  background-color: black;
 }
 
-.logo {
-  font-size: 22px;
-  font-weight: bold;
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-right: 240px;
+padding-left: 240px;
+color: white;
+/* width: ; */
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
+list-style: none;
+display: flex;
+gap: 18px;
 }
 
 .nav-links li {
-  font-family: var(--font-inter);
-  cursor: pointer;
+font-family: var(--font-inter);
+cursor: pointer;
 }
-
 .buttons {
-  display: flex;
-  gap: 15px;
+display: flex;
+gap: 15px;
 }
 
 .contact {
-  background: transparent;
-  color: white;
-  border: 1px solid #2c2c2c;
-  padding: 10px 18px;
-  border-radius: 20px;
-  cursor: pointer;
+background: rgb(83, 78, 78);
+color: white;
+border: 0px;
+padding: 10px 18px;
+border-radius: 20px;
+cursor: pointer;
 }
-
 .start {
-  background: white;
-  color: black;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 20px;
-  cursor: pointer;
+
+background: rgb(251, 249, 249);
+color: black;
+border: none;
+padding: 10px 18px;
+border-radius: 20px;
+cursor: pointer;
 }
