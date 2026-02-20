@@ -83,6 +83,7 @@ cursor: pointer;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.2);
+  height: 20px;
 
 }
 .subscribe-email{
@@ -91,11 +92,24 @@ cursor: pointer;
   width: 262px;
 }
 .subscribe-button{
+  display: flex;
   background: white;
   color: black;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 38px;
   border-radius: 30px;
   font-weight: 500;
   cursor: pointer;
+  height: 17px;
+  justify-content: center;
+  align-items: center;
+}
+.middle-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.image-dark{
+  border-radius: 20px;
 }
