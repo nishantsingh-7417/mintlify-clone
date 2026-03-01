@@ -131,10 +131,26 @@ cursor: pointer;
   align-items: center;
   text-align: center;
 }
+/* header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+ .campany-flex{
+  display: flex;
+  padding-top: 72px;
+ }
 .campany-logos{
+
+  display: flex;
+  padding-top: 72px;
+  padding-left: 50px;
+  padding-right: 32px;
+  padding-bottom: 144px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(2,1fr);
+  justify-content: center;
   align-items: center;
   max-width: 1000px;   /* control grid width */
   margin: 0 auto;
